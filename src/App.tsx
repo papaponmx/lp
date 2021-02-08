@@ -1,7 +1,7 @@
 import LandingPage from "./layout/landingPage";
 import React from "react";
 
-function App() {
+const App: React.FC = () => {
   return (
     <LandingPage>
       <section className="font-sans font-thin max-w-full w-screen h-screen text-center text-gray-800 grid grid-cols-2">
@@ -50,6 +50,6 @@ function App() {
       </section>
     </LandingPage>
   );
-}
+};
 
 export default App;
